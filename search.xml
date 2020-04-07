@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>♤博客书写格式♤</title>
+    <url>/2020/04/07/%E5%8D%9A%E5%AE%A2%E4%B9%A6%E5%86%99%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<h2 id="☥1-文章格式"><a href="#☥1-文章格式" class="headerlink" title="☥1.文章格式"></a>☥1.文章格式</h2><h3 id="☥1-1标题"><a href="#☥1-1标题" class="headerlink" title="☥1.1标题"></a>☥1.1标题</h3><pre><code>标题格式如下，最多支持六级标题
+一级标题：# 文字
+二级标题：## 文字
+三级标题：### 文字
+注意：#号后加空格</code></pre><h3 id="☥1-2-字体"><a href="#☥1-2-字体" class="headerlink" title="☥1.2 字体"></a>☥1.2 字体</h3><h4 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h4><pre><code>内容左右分别加上一个 * ，例如： *斜体*</code></pre><h4 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a>加粗</h4><pre><code>内容左右分别加上两个 * ，例如： **粗体**</code></pre><h4 id="斜体加粗"><a href="#斜体加粗" class="headerlink" title="斜体加粗"></a>斜体加粗</h4><pre><code>内容左右分别加上三个 * ，例如： ***斜体加粗***</code></pre><h4 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h4><pre><code>内容左右分别加上两个 ~~ ，例如： ~~删除线~~</code></pre><h3 id="☥1-3-引用"><a href="#☥1-3-引用" class="headerlink" title="☥1.3 引用"></a>☥1.3 引用</h3><pre><code>引用的内容前面加上一个 &gt; ，例如： &gt;引用</code></pre><h3 id="☥1-4-分割线"><a href="#☥1-4-分割线" class="headerlink" title="☥1.4 分割线"></a>☥1.4 分割线</h3><pre><code>三个或者三个以上的 - 或者 * </code></pre><h1 id="☥2-特色功能"><a href="#☥2-特色功能" class="headerlink" title="☥2.特色功能"></a>☥2.特色功能</h1><h2 id="☥2-1博客的标签"><a href="#☥2-1博客的标签" class="headerlink" title="☥2.1博客的标签"></a>☥2.1博客的标签</h2><pre><code>1、在根目录执行下面代码，会在博客根目录下source文件夹会生成一个tags文件夹以及index.md文件；</code></pre><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new page categories</span><br></pre></td></tr></table></figure>
+<pre><code>2、然后对index.md进行编辑，在当中添加type类型。</code></pre><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ ---</span><br><span class="line">$ title: tags</span><br><span class="line">$ date: 2020-04-07 21:17:43</span><br><span class="line">$ <span class="built_in">type</span>: tags</span><br><span class="line">$ ---</span><br></pre></td></tr></table></figure>
+
+<pre><code>3、同理，文章的分类可添加：categories。</code></pre>]]></content>
+      <tags>
+        <tag>学习笔记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2020/04/06/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -17,21 +32,6 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>♤博客书写格式♤</title>
-    <url>/2020/04/07/%E5%8D%9A%E5%AE%A2%E4%B9%A6%E5%86%99%E6%A0%BC%E5%BC%8F/</url>
-    <content><![CDATA[<h2 id="☥1-文章格式"><a href="#☥1-文章格式" class="headerlink" title="☥1.文章格式"></a>☥1.文章格式</h2><h3 id="☥1-1标题"><a href="#☥1-1标题" class="headerlink" title="☥1.1标题"></a>☥1.1标题</h3><pre><code>标题格式如下，最多支持六级标题
-一级标题：# 文字
-二级标题：## 文字
-三级标题：### 文字
-注意：#号后加空格</code></pre><h3 id="☥1-2-字体"><a href="#☥1-2-字体" class="headerlink" title="☥1.2 字体"></a>☥1.2 字体</h3><h4 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h4><pre><code>内容左右分别加上一个 * ，例如： *斜体*</code></pre><h4 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a>加粗</h4><pre><code>内容左右分别加上两个 * ，例如： **粗体**</code></pre><h4 id="斜体加粗"><a href="#斜体加粗" class="headerlink" title="斜体加粗"></a>斜体加粗</h4><pre><code>内容左右分别加上三个 * ，例如： ***斜体加粗***</code></pre><h4 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h4><pre><code>内容左右分别加上两个 ~~ ，例如： ~~删除线~~</code></pre><h3 id="☥1-3-引用"><a href="#☥1-3-引用" class="headerlink" title="☥1.3 引用"></a>☥1.3 引用</h3><pre><code>引用的内容前面加上一个 &gt; ，例如： &gt;引用</code></pre><h3 id="☥1-4-分割线"><a href="#☥1-4-分割线" class="headerlink" title="☥1.4 分割线"></a>☥1.4 分割线</h3><pre><code>三个或者三个以上的 - 或者 * </code></pre><h1 id="☥2-特色功能"><a href="#☥2-特色功能" class="headerlink" title="☥2.特色功能"></a>☥2.特色功能</h1><h2 id="☥2-1博客的标签"><a href="#☥2-1博客的标签" class="headerlink" title="☥2.1博客的标签"></a>☥2.1博客的标签</h2><pre><code>1、在根目录执行下面代码，会在博客根目录下source文件夹会生成一个tags文件夹以及index.md文件；</code></pre><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new page categories</span><br></pre></td></tr></table></figure>
-<pre><code>2、然后对index.md进行编辑，在当中添加type类型。</code></pre><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ ---</span><br><span class="line">$ title: tags</span><br><span class="line">$ date: 2020-04-07 21:17:43</span><br><span class="line">$ <span class="built_in">type</span>: tags</span><br><span class="line">$ ---</span><br></pre></td></tr></table></figure>
-
-<pre><code>3、同理，文章的分类可添加：categories。</code></pre>]]></content>
-      <tags>
-        <tag>学习笔记</tag>
-      </tags>
   </entry>
   <entry>
     <title>♤大学日志♤</title>
