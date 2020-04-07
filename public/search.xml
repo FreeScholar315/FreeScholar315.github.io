@@ -1,77 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>♤博客书写格式♤</title>
-      <link href="/2020/04/07/%E5%8D%9A%E5%AE%A2%E4%B9%A6%E5%86%99%E6%A0%BC%E5%BC%8F/"/>
-      <url>/2020/04/07/%E5%8D%9A%E5%AE%A2%E4%B9%A6%E5%86%99%E6%A0%BC%E5%BC%8F/</url>
-      
-        <content type="html"><![CDATA[<h2 id="☥1-文章格式"><a href="#☥1-文章格式" class="headerlink" title="☥1.文章格式"></a>☥1.文章格式</h2><h3 id="☥1-1标题"><a href="#☥1-1标题" class="headerlink" title="☥1.1标题"></a>☥1.1标题</h3><pre><code>标题格式如下，最多支持六级标题一级标题：# 文字二级标题：## 文字三级标题：### 文字注意：#号后加空格</code></pre><h3 id="☥1-2-字体"><a href="#☥1-2-字体" class="headerlink" title="☥1.2 字体"></a>☥1.2 字体</h3><h4 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h4><pre><code>内容左右分别加上一个 * ，例如： *斜体*</code></pre><h4 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a>加粗</h4><pre><code>内容左右分别加上两个 * ，例如： **粗体**</code></pre><h4 id="斜体加粗"><a href="#斜体加粗" class="headerlink" title="斜体加粗"></a>斜体加粗</h4><pre><code>内容左右分别加上三个 * ，例如： ***斜体加粗***</code></pre><h4 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h4><pre><code>内容左右分别加上两个 ~~ ，例如： ~~删除线~~</code></pre><h3 id="☥1-3-引用"><a href="#☥1-3-引用" class="headerlink" title="☥1.3 引用"></a>☥1.3 引用</h3><pre><code>引用的内容前面加上一个 &gt; ，例如： &gt;引用</code></pre><h3 id="☥1-4-分割线"><a href="#☥1-4-分割线" class="headerlink" title="☥1.4 分割线"></a>☥1.4 分割线</h3><pre><code>三个或者三个以上的 - 或者 * </code></pre><h1 id="☥2-特色功能"><a href="#☥2-特色功能" class="headerlink" title="☥2.特色功能"></a>☥2.特色功能</h1><h2 id="☥2-1博客的标签"><a href="#☥2-1博客的标签" class="headerlink" title="☥2.1博客的标签"></a>☥2.1博客的标签</h2><pre><code>1、在根目录执行下面代码，会在博客根目录下source文件夹会生成一个tags文件夹以及index.md文件；</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page categories</span><br></pre></td></tr></table></figure><pre><code>2、然后对index.md进行编辑，在当中添加type类型。</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ ---</span><br><span class="line">$ title: tags</span><br><span class="line">$ date: 2020-04-07 21:17:43</span><br><span class="line">$ <span class="built_in">type</span>: tags</span><br><span class="line">$ ---</span><br></pre></td></tr></table></figure><pre><code>3、同理，文章的分类可添加：categories。</code></pre>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 学习笔记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2020/04/06/hello-world/"/>
-      <url>/2020/04/06/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>♤大学日志♤</title>
-      <link href="/2019/07/01/%E5%A4%A7%E5%AD%A6%E6%97%A5%E5%BF%97/"/>
-      <url>/2019/07/01/%E5%A4%A7%E5%AD%A6%E6%97%A5%E5%BF%97/</url>
-      
-        <content type="html"><![CDATA[<h3 id="『毕业小记』"><a href="#『毕业小记』" class="headerlink" title="『毕业小记』"></a>『毕业小记』</h3><pre><code>ღ 你我有各自的轨迹，共步一段旅程，是缘分~ღ 你我终将朝着各自方向，渐行渐远，是命运~ღ 太原的四年，从很陌生到很留恋…ღ 科大的四年，从有抱怨到有回忆…ღ 5227的四年，从不习惯到不舍得…ღ 这四年来，有过太多美好的回忆…ღ 感谢有你们的春夏秋冬，嬉笑怒骂，ღ 愿你们毕业后一帆风顺，后会有期。</code></pre>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 随手小记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>♤高中日志♤</title>
-      <link href="/2015/07/01/%E9%AB%98%E4%B8%AD%E6%97%A5%E5%BF%97/"/>
-      <url>/2015/07/01/%E9%AB%98%E4%B8%AD%E6%97%A5%E5%BF%97/</url>
-      
-        <content type="html"><![CDATA[<h3 id="『毕业小记』"><a href="#『毕业小记』" class="headerlink" title="『毕业小记』"></a>『毕业小记』</h3><pre><code>ღ 高一，那时稚嫩的我们满怀希冀踏进充满未知气息的信丰中学，先是爬上天文台，再是参观图书馆，最后军训于操场。我们相遇，一切都是新鲜的；ღ 高二，经过洗礼的我们开心结伴走在充满熟悉气息的信丰中学，先是玩乐运动会，再是合唱五四曲，最后欢送毕业生。我们相知，到处都是欢乐的；ღ 高三，临近高考的我们争分夺秒跑在充满留恋气息的信丰中学，先是奋斗报告厅，再是熬夜老宿舍，最后踏入新高考。我们分离，到处都是不舍的。ღ 三年来，我高兴过，流泪过；勇敢过，胆怯过；团结过，争吵过；认真过，逗逼过；坚持过，放弃过；成功过，失败过。但我从不后悔，反而珍惜曾经有过这样丰富多彩的三年。ღ 信丰中学，我会记得我曾经在这，和一群可爱的老师以及同学，走过的1314-一生一世。</code></pre>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 随手小记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>♤博客书写格式♤</title>
+    <url>/2020/04/07/%E5%8D%9A%E5%AE%A2%E4%B9%A6%E5%86%99%E6%A0%BC%E5%BC%8F/</url>
+    <content><![CDATA[<h2 id="☥1-文章格式"><a href="#☥1-文章格式" class="headerlink" title="☥1.文章格式"></a>☥1.文章格式</h2><h3 id="☥1-1标题"><a href="#☥1-1标题" class="headerlink" title="☥1.1标题"></a>☥1.1标题</h3><pre><code>标题格式如下，最多支持六级标题
+一级标题：# 文字
+二级标题：## 文字
+三级标题：### 文字
+注意：#号后加空格</code></pre><h3 id="☥1-2-字体"><a href="#☥1-2-字体" class="headerlink" title="☥1.2 字体"></a>☥1.2 字体</h3><h4 id="斜体"><a href="#斜体" class="headerlink" title="斜体"></a>斜体</h4><pre><code>内容左右分别加上一个 * ，例如： *斜体*</code></pre><h4 id="加粗"><a href="#加粗" class="headerlink" title="加粗"></a>加粗</h4><pre><code>内容左右分别加上两个 * ，例如： **粗体**</code></pre><h4 id="斜体加粗"><a href="#斜体加粗" class="headerlink" title="斜体加粗"></a>斜体加粗</h4><pre><code>内容左右分别加上三个 * ，例如： ***斜体加粗***</code></pre><h4 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h4><pre><code>内容左右分别加上两个 ~~ ，例如： ~~删除线~~</code></pre><h3 id="☥1-3-引用"><a href="#☥1-3-引用" class="headerlink" title="☥1.3 引用"></a>☥1.3 引用</h3><pre><code>引用的内容前面加上一个 &gt; ，例如： &gt;引用</code></pre><h3 id="☥1-4-分割线"><a href="#☥1-4-分割线" class="headerlink" title="☥1.4 分割线"></a>☥1.4 分割线</h3><pre><code>三个或者三个以上的 - 或者 * </code></pre><h1 id="☥2-特色功能"><a href="#☥2-特色功能" class="headerlink" title="☥2.特色功能"></a>☥2.特色功能</h1><h2 id="☥2-1博客的标签"><a href="#☥2-1博客的标签" class="headerlink" title="☥2.1博客的标签"></a>☥2.1博客的标签</h2><pre><code>1、在根目录执行下面代码，会在博客根目录下source文件夹会生成一个tags文件夹以及index.md文件；</code></pre><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new page categories</span><br></pre></td></tr></table></figure>
+<pre><code>2、然后对index.md进行编辑，在当中添加type类型。</code></pre><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ ---</span><br><span class="line">$ title: tags</span><br><span class="line">$ date: 2020-04-07 21:17:43</span><br><span class="line">$ <span class="built_in">type</span>: tags</span><br><span class="line">$ ---</span><br></pre></td></tr></table></figure>
+
+<pre><code>3、同理，文章的分类可添加：categories。</code></pre>]]></content>
+      <tags>
+        <tag>学习笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/04/06/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>♤大学日志♤</title>
+    <url>/2019/07/01/%E5%A4%A7%E5%AD%A6%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<h3 id="『毕业小记』"><a href="#『毕业小记』" class="headerlink" title="『毕业小记』"></a>『毕业小记』</h3><pre><code>ღ 你我有各自的轨迹，共步一段旅程，是缘分~
+
+ღ 你我终将朝着各自方向，渐行渐远，是命运~
+
+ღ 太原的四年，从很陌生到很留恋…
+
+ღ 科大的四年，从有抱怨到有回忆…
+
+ღ 5227的四年，从不习惯到不舍得…
+
+ღ 这四年来，有过太多美好的回忆…
+
+ღ 感谢有你们的春夏秋冬，嬉笑怒骂，
+
+ღ 愿你们毕业后一帆风顺，后会有期。</code></pre>]]></content>
+      <tags>
+        <tag>随手小记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>♤高中日志♤</title>
+    <url>/2015/07/01/%E9%AB%98%E4%B8%AD%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<h3 id="『毕业小记』"><a href="#『毕业小记』" class="headerlink" title="『毕业小记』"></a>『毕业小记』</h3><pre><code>ღ 高一，那时稚嫩的我们满怀希冀踏进充满未知气息的信丰中学，
+先是爬上天文台，再是参观图书馆，最后军训于操场。我们相遇，一切都是新鲜的；
+
+ღ 高二，经过洗礼的我们开心结伴走在充满熟悉气息的信丰中学，
+先是玩乐运动会，再是合唱五四曲，最后欢送毕业生。我们相知，到处都是欢乐的；
+
+ღ 高三，临近高考的我们争分夺秒跑在充满留恋气息的信丰中学，
+先是奋斗报告厅，再是熬夜老宿舍，最后踏入新高考。我们分离，到处都是不舍的。
+
+ღ 三年来，我高兴过，流泪过；勇敢过，胆怯过；团结过，争吵过；认真过，逗逼过；坚持过，放弃过；成功过，失败过。
+但我从不后悔，反而珍惜曾经有过这样丰富多彩的三年。
+
+ღ 信丰中学，我会记得我曾经在这，和一群可爱的老师以及同学，走过的1314-一生一世。</code></pre>]]></content>
+      <tags>
+        <tag>随手小记</tag>
+      </tags>
+  </entry>
 </search>
